@@ -6,8 +6,11 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "faiss-gpu>=1.7.2",
+    "huggingface-hub>=0.30.2",
     "langchain>=0.3.24",
+    "langchain-community==0.3.0",
     "langchain-openai>=0.3.14",
     "pip>=25.1",
     "sentence-transformers>=4.1.0",
+    "unstructured[pdf]>=0.17.2",
 ]
